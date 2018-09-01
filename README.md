@@ -1,4 +1,4 @@
-# NX-Trimmer
+# NX-Trimmer v0.3.1
 https://github.com/julesontheroad/NX-Trimmer
 
 Made by JulesOnTheRoad and first released in elotrolado.net
