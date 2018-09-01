@@ -1,12 +1,20 @@
 ***********
-NX-Trimmer (v0.3)
+NX-Trimmer (v0.31)
 ***********
 Elaborado por JulesOnTheRoad para elotrolado.net
-Próximamente en: https://github.com/julesontheroad/NX-Trimmer
+https://github.com/julesontheroad/NX-Trimmer
 ---------------
 0. Changelog
 ---------------
-v0.3.0 - Realizados bastantes cambios desde la verisón inicial. Los cuáles se detallan a continuación.
+v0.3.1 - Añadidas opciones en el header del archivo .bat. Editar con notepad++ para seleccionarlas.
+   I - "preservemanual" Por defecto a 0, poner a 1 si se quiere que no se borre el nca del manual. De hacerlo el programa lo dejará en la carpeta output junto al xci
+	El xci resultante no contendrá el manual. 
+	NOTA: Nota ¡¡NO INSTALAR EL .nca del manual!! ya que dará error en caso de intentar acceder al manual del juego.
+	NOTA2: El xci sin el manual es completamente funcional y si se selecciona el manual no pasa nada
+	NOTA3: Opción pensada para compatibilidad con un futuro constructor de nsp.
+   II - "delete_brack_tags" Eliminación de tags [] del tipo [trimmed]- Por defecto a 1
+  III - "delete_pa_tags" Eliminación de tags () del tipo (USA) - Por defecto a 0. De activarla puede que borre también las tags []
+v0.3.0 - Realizados bastantes cambios desde la versión inicial. Los cuáles se detallan a continuación:
    I - Añadida compatibilidad con juegos con más de 5 nca. Estos se dividen en dos casos, los cuáles se detallan a continuación.
        a) Juegos con manual en html (5 nca). En estos se ha decidido eliminar el manual del juego, lo cuál no impide su ejecución. 
 	  El intento de acceder al manual desde los juegos que lo incluyen resulta en una acción que no da lugar a ningún 
