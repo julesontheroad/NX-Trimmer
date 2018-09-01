@@ -61,7 +61,7 @@ v0.3.1 - Added options in batch header. Edit with notepad++ to select them
 1. Description
 ---------------
 
-This tool is thought to clean the update partition from xci files and to reduce the padding used between partitions.
+This tool is meant to clean the update partition from xci files and to reduce the padding used between partitions.
 This is a batch application which serves to automate the workflow between the following programs:
 
 a.) hacbuild: Program meant to create xci files from nca files, made by LucaFraga.
