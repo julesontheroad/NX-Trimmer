@@ -1,2 +1,3 @@
 # NX-Trimmer
-Not download yet. Still making changes
+Functional but still making changes 
+Not download yet. 
