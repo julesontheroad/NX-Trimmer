@@ -1,2 +1,2 @@
 # NX-Trimmer
-Files to be uploaded soon.
+Not download yet. Still making changes
