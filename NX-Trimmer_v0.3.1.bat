@@ -1,7 +1,7 @@
 @echo off
 color 03
 
-::NX-Trimmer v0.3 by julesontheroad::
+::NX-Trimmer v0.3.1 by julesontheroad::
 ::A batch file made to automate system updates trimming, game updates trimming and padding reduction via hacbuild
 ::NX-Trimmer serves as a workflow helper for hacbuild, hactool and nspbuild
 ::Just drag and drop. Drag a xci file into NX-Trimmer .bat and it'll take care of everything
