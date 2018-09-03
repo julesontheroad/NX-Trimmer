@@ -1,11 +1,16 @@
 ***********
-NX-Trimmer (v0.31)
+NX-Trimmer (v0.31 -REV2)
 ***********
 Elaborado por JulesOnTheRoad para elotrolado.net
 https://github.com/julesontheroad/NX-Trimmer
 ---------------
 0. Changelog
 ---------------
+REV2   - Reformada carpeta ztools para eliminar sfk.exe ya que no era necesario. Añadida la build de Bigjokker de hacbuild para eliminar la advertencia de falta de 
+         header_key.txt en hacbuild, ya que esta clave no es realmente necesaria. 
+         Se ha vuelto a la anterior build de hactool en lugar de la prebuild publicada por SciresM ya que parecía dar problemas a usuarios de sistemas 32bits.
+	 En caso de necesitar la build de SciresM https://github.com/SciresM/hactool/releases/tag/1.2.0
+
 v0.3.1 - Añadidas opciones en el header del archivo .bat. Editar con notepad++ para seleccionarlas.
    I - "preservemanual" Por defecto a 0, poner a 1 si se quiere que no se borre el nca del manual. De hacerlo el programa lo dejará en la carpeta output junto al xci
 	El xci resultante no contendrá el manual. 
@@ -122,5 +127,6 @@ Al menos yo no he encontrado incompatibilidades.
 --------------------
 7. Agradecimentos a: 
 --------------------
-LucaFraga, SciresM, CVFireDragon y a los miembros de gbatemp y  elotrolado.net
+LucaFraga, SciresM, CVFireDragon y Bigjokker 
+También agradecimientos a los miembros de gbatemp y  elotrolado.net
 
