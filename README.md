@@ -7,11 +7,20 @@ First official git release
 ---------------
 0. Changelog
 ---------------
+REV2   - Changed ztools folder to erase sfk.exe as it wasn't needed. Added Bigjokker build of hacbuild so it eliminate the warning about not having a header_key.txt in hacbuild as it wasn't needed.
+Returned to previous build of hactool used since the prebuild one from SciresM seemed to give issues to some users with 32bit systems.
 
-v0.1.0 - First launch in elotrolado.net
+v0.3.1 - Added options in batch header. Edit with notepad++ to select them
 
-v0.2.x - Development versions
-
+   I - "preservemanual" By default 0. Set at 1 if you want the manual nca to not be deleted. If set at 1 the manual will be sent to output folder.
+  NOTE1: Is advised to ¡¡NOT INSTALLED the manual .nca!! as the game will give error if you try to access the game manual.
+	NOTE2: The xci without manual is completely functional and if manual is selected it won't happened anything. 
+	NOTE3: This option is thought for a future xci to nsp converter that will revert the process.
+  
+   II - "delete_brack_tags" Erase [] tags like [trimmed]- By default at 1
+   
+  III - "delete_pa_tags" Erase tags () like (USA) - By default at 0. If activated it could also erase [] tags
+  
 v0.3.0 - Lot of changes made to first version:
    I - Added compatibility with games with more than 5 nca. This accomplished by using the following approach. 
        a) Games with html manual (5 nca). The manual was stripped from the game, this doesn't impede game execution. And game is fully functional.
@@ -46,16 +55,10 @@ Nowadays the nca files in normal are the same as in "secure" so this partition i
 
 NOTE: If upgrading from previous version replace ztools folder. hactool version was upgraded and an small modification was made in hacbuild code.
 
-v0.3.1 - Added options in batch header. Edit with notepad++ to select them
+v0.1.0 - First launch in elotrolado.net
 
-   I - "preservemanual" By default 0. Set at 1 if you want the manual nca to not be deleted. If set at 1 the manual will be sent to output folder.
-  NOTE1: Is advised to ¡¡NOT INSTALLED the manual .nca!! as the game will give error if you try to access the game manual.
-	NOTE2: The xci without manual is completely functional and if manual is selected it won't happened anything. 
-	NOTE3: This option is thought for a future xci to nsp converter that will revert the process.
-  
-   II - "delete_brack_tags" Erase [] tags like [trimmed]- By default at 1
-   
-  III - "delete_pa_tags" Erase tags () like (USA) - By default at 0. If activated it could also erase [] tags
+v0.2.x - Development versions
+
 
 ---------------
 1. Description
