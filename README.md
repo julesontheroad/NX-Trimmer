@@ -2,7 +2,6 @@
 https://github.com/julesontheroad/NX-Trimmer
 
 Made by JulesOnTheRoad and first released in elotrolado.net
-First official git release
 
 ---------------
 0. Changelog
