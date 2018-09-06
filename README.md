@@ -1,4 +1,4 @@
-# NX-Trimmer v0.3.1
+# NX-Trimmer v0.4
 https://github.com/julesontheroad/NX-Trimmer
 
 Made by JulesOnTheRoad and first released in elotrolado.net
@@ -7,7 +7,12 @@ First official git release
 ---------------
 0. Changelog
 ---------------
-REV2   - Changed ztools folder to erase sfk.exe as it wasn't needed. Added Bigjokker build of hacbuild so it eliminate the warning about not having a header_key.txt in hacbuild as it wasn't needed.
+v0.4   - Cleaned echos giving better input to the user about the process.
+         Added compatibility with XCI_BatchBuilder.
+         Erased auto-exit at the end of program so it can be used by command line if you want.
+         Made a couple of fixes in the code.
+	 
+v0.3.1.REV2 - Changed ztools folder to erase sfk.exe as it wasn't needed. Added Bigjokker build of hacbuild so it eliminate the warning about not having a header_key.txt in hacbuild as it wasn't needed.
 Returned to previous build of hactool used since the prebuild one from SciresM seemed to give issues to some users with 32bit systems.
 
 v0.3.1 - Added options in batch header. Edit with notepad++ to select them
