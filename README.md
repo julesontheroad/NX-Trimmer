@@ -1,5 +1,7 @@
 # NX-Trimmer v0.4
-https://github.com/julesontheroad/NX-Trimmer
+https://github.com/julesontheroad/NX-Trimmer  So for whoever that didn't realized it yet:
+- For building xci files without the need of a ticket use: https://github.com/julesontheroad/NUT_BATCH_CLEANER/releases/tag/v0.41
+- For the trimmer and things without tickets for now use https://github.com/julesontheroad/NUT_BATCH_CLEANER/releases
 
 Made by JulesOnTheRoad and first released in elotrolado.net
 
